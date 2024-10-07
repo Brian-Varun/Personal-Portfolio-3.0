@@ -33,7 +33,7 @@ export function Experience() {
           link: "https://www.dana.com",
           date: "May 2024 - Present",
           desc: "Dana Incorporated is a world leader in highly engineered solutions for improving the efficiency, performance, and sustainability of powered vehicles and machinery. With expertise in electrification and thermal management, Dana supplies components to major automotive and industrial manufacturers globally.",
-          role: <Text size="1" weight="light" mr="5" color="gray">• Spearheaded two critical studies on battery cold plate manufacturing methods, achieving 11% cost reduction per part\n• Designed and fabricated test fixtures for mechanical and electrical testing using PTC Creo\n• Conducted failure analysis on prototype components, investigating material defects and various issues\n• Developed Python scripts to automate GD&T dimensional tracking and shipping list generation, saving 4 hours of weekly manual work </Text>,
+          role: <Text size="1" weight="light" mr="5" color="gray">Led manufacturing optimization studies resulting in 11% cost reduction for battery components. Utilized PTC Creo for test fixture design, conducted failure analysis on prototypes, and developed Python scripts to automate dimensional tracking and shipping processes, improving efficiency by saving 4 hours weekly.</Text>,
           icon: "/path/to/your/local/dana-image.jpg",
         },
         {
@@ -43,17 +43,17 @@ export function Experience() {
           link: "https://macformularacing.com/",
           date: "Jan 2024 - Present",
           desc: "McMaster Formula Electric is a student-led team that designs and builds electric race cars to compete in Formula SAE Electric competitions. The team focuses on developing innovative electrical systems and pushing the boundaries of electric vehicle technology.",
-          role: <Text size="1" weight="light" mr="5" color="gray">• Creating a full-stack application for hardware-in-the-loop testing using React, web-socket, Go, and Raspberry Pi\n• Redesigned and currently managing the team's website (macformularacing.com)</Text>,
+          role: <Text size="1" weight="light" mr="5" color="gray">Developing a comprehensive hardware-in-the-loop testing application using React, web-socket, Go, and Raspberry Pi. Additionally, managing and redesigning the team's website to improve online presence.</Text>,
           icon: macformula,
         },
         {
           id: 3,
           position: "Suspension Dynamics",
           company: "McMaster Solar Car Project",
-          link: "https://mcmastersolarcar.com/",
+          link: "https://www.mcmastersolarcar.com/",
           date: "Oct 2023 - April 2024",
           desc: "The McMaster Solar Car Project is a student-run initiative that designs, builds, and races solar-powered vehicles for the American Solar Challenge. The team combines sustainable energy innovation with advanced automotive engineering.",
-          role: <Text size="1" weight="light" mr="5" color="gray">Engineered MATLAB Simulink models for processing sensor data and generating vehicle performance metrics\n• Contributed to race car fabrication by machining and assembling aluminium chassis components</Text>,
+          role: <Text size="1" weight="light" mr="5" color="gray">Developed MATLAB Simulink models for data processing and performance analysis of solar vehicles. Gained hands-on experience in automotive fabrication through machining and assembling aluminum chassis components.</Text>,
           icon: solarcarphoto,
         },
         {
@@ -63,7 +63,7 @@ export function Experience() {
           link: "https://www.eng.mcmaster.ca/ibiomed/",
           date: "Jan 2023 - April 2024",
           desc: "McMaster University's Faculty of Engineering is known for its innovative approach to engineering education, combining theoretical knowledge with practical, hands-on experience in various engineering disciplines.",
-          role: <Text size="1" weight="light" mr="5" color="gray">Instructed 40+ first-year engineering students per semester in Python programming, 3D CAD modeling, and engineering design\n• Guided student teams through full product development cycles, overseeing mechatronic prototypes using Raspberry Pi, sensors, and various fabrication methods</Text>,
+          role: <Text size="1" weight="light" mr="5" color="gray">Instructed first-year engineering students in Python programming, 3D CAD modeling, and engineering design principles. Mentored student teams through complete product development cycles, focusing on mechatronic prototypes using Raspberry Pi and various sensors.</Text>,
           icon: mcmaster1photo,
         },
         {
@@ -73,7 +73,7 @@ export function Experience() {
           link: "https://math.mcmaster.ca/",
           date: "May 2023 - June 2023",
           desc: "The Department of Mathematics at McMaster University offers comprehensive mathematics education and research opportunities, supporting students across various disciplines in developing strong quantitative and analytical skills.",
-          role: <Text size="1" weight="light" mr="5" color="gray">Role details not provided in resume</Text>,
+          role: <Text size="1" weight="light" mr="5" color="gray">Instructed second-year students in higher level calculus concepts mainly regarding Laplace, triple integrals, and Fourier transforms alongside leading tutorials on how to visualize these concepts graphically using MATLAB.</Text>,
           icon: mcmaster2photo,
         },
         {
@@ -83,7 +83,7 @@ export function Experience() {
           link: "https://www.distributel.ca/",
           date: "Summer 2022 & Summer 2023",
           desc: "Distributel is a leading independent telecommunications provider in Canada, offering internet, phone, and TV services to residential and business customers across the country.",
-          role: <Text size="1" weight="light" mr="5" color="gray">Helped hundreds of customers get access to internet through automating emails and manually completing tickets</Text>,
+          role: <Text size="1" weight="light" mr="5" color="gray">Streamlined customer service processes through email automation, helping numerous customers gain internet access while efficiently managing service tickets.</Text>,
           icon: distributel,
         },
       ];

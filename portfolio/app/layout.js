@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class">
-          <Theme accentcolor="crimson"> 
+          <Theme panelBackground="translucent"> 
             {children}
           </Theme>
         </ThemeProvider>

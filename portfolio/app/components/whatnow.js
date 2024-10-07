@@ -7,10 +7,10 @@ export function WhatNow() {
     <Theme>
         <Flex direction="column" gapY="2"> 
             <Text weight="light" size="1">
-                Looking for summer 2025 interships in North America.
+                Looking for Summer 2025 Interships in North America.
             </Text>
             <Text weight="light" size="1">
-                Research and development at <Link href="#">Dana Incorporated</Link>
+                Research and development at Dana Incorporated
             </Text>
         </Flex>
     </Theme>
