@@ -8,10 +8,12 @@ import {
   Separator,
   Card,
   Inset,
-  Link,
+  Link as RadixLink,
 } from "@radix-ui/themes";
+
+import NextLink from "next/link";
 import { ThemeToggle } from "./components/ThemeToggle";
-import { ArrowUpRight, Dot, CircleGauge, Download } from "lucide-react";
+import { ArrowUpRight, Download } from "lucide-react";
 
 import { ContactMe } from "./components/contactme";
 import { Introduction } from "./components/introduction";
@@ -21,6 +23,17 @@ import { ThemeClock } from "./components/torontoclock";
 import { Education } from "./components/education";
 import { Hobbies } from "./components/hobbies";
 import { Gallery } from "./components/gallery";
+
+
+function CustomLink({ href, ...props }) {
+  return (
+    <NextLink href={href} passHref legacyBehavior>
+      <RadixLink {...props} />
+    </NextLink>
+  )
+}
+
+
 export default function Home() {
   const gridItems = [
     {
@@ -107,18 +120,13 @@ export default function Home() {
       id: 8,
       colSpan: "md:col-span-3",
       rowSpan: "md:row-span-1",
-      text: "",
-      projectSlug: "project-1",
+      text: "project 1",
       component: (
-        <Link href="/projects/project-1" className="block h-full">
-          <Card
-            variant="surface"
-            className="w-full h-full transition-all hover:opacity-80"
-          >
-            {/* Your project preview content */}
-            <Text>Project 1 Preview</Text>
+        <CustomLink href="/projects/project2">
+          <Card variant="surface" className="w-full h-full transition-all">
+            Link to project one md file 
           </Card>
-        </Link>
+        </CustomLink>
       ),
       hideHeader: true,
     },
